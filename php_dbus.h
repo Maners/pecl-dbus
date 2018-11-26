@@ -27,7 +27,7 @@
 
 #include "Zend/zend_hash.h"
 
-#define PHP_DBUS_VERSION "0.1.0"
+#define PHP_DBUS_VERSION "0.1.2"
 
 # define DBUS_ZEND_OBJECT_PROPERTIES_INIT(_objPtr, _ce) \
     object_properties_init(&_objPtr->std, _ce); \
